@@ -8,12 +8,14 @@ const html = htm.bind(createElement);
 const Header = styled.div`
     background-color: powderblue;
     height: 45px;
-    width: 100%;
-    justify-content: space-between;
     display: flex;
+    align-items: center;
+    padding: 0 20px 0;
 `;
 
-const Link = styled.a``;
+const Link = styled.a`
+    margin: 40px;
+`;
 
 export default () => html`<${Header}>
     Header
