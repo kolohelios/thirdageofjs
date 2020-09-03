@@ -5,10 +5,10 @@ import styled from 'https://cdn.skypack.dev/styled-components@^5.1.1';
 const { createElement } = React;
 const html = htm.bind(createElement);
 
-const Header = styled.div`
-    background-color: powderblue;
+const Footer = styled.div`
+    background-color: #ddd;
     height: 45px;
     width: 100%;
 `;
 
-export default () => html`<${Header}>Header<//>`;
+export default () => html`<${Footer}>Footer<//>`;
