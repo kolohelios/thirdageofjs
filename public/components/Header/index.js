@@ -9,6 +9,14 @@ const Header = styled.div`
     background-color: powderblue;
     height: 45px;
     width: 100%;
+    justify-content: space-between;
+    display: flex;
 `;
 
-export default () => html`<${Header}>Header<//>`;
+const Link = styled.a``;
+
+export default () => html`<${Header}>
+    Header
+    <${Link} href="#Home">Home<//>
+    <${Link} href="#About">About<//>
+<//>`;
